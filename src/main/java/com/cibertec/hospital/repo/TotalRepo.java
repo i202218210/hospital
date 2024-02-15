@@ -15,5 +15,6 @@ public interface TotalRepo extends JpaRepository<Total, Integer>{
 	  "ON P.PATIENT_ID = PR.PATIENT_ID " + "GROUP BY P.PATIENT_ID", nativeQuery = true)
 	
 	public List<Total> getTotal();	
+	  //dsds
 	
 }
